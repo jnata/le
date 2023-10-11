@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Galada:regular&display=swap");
+
+@font-face {
+   font-family: "Metroni Regular";
+   src: url("../fonts/Metroni.woff2") format("woff2"),
+      url("../fonts/Metroni.woff") format("woff");
+   font-display: swap;
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "NimbusMono-Bold";
+   src: url("../fonts/NimbusMono-Bold.woff2") format("woff2"),
+   url("../fonts/NimbusMono-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: "NimbusMono-Oblique";
+   src: url("../fonts/NimbusMono-Oblique.woff2") format("woff2"),
+   url("../fonts/NimbusMono-Oblique.woff") format("woff");
+   font-display: swap;
+   font-weight: bold;
+   font-style: oblique;
+}

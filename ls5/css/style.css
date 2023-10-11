@@ -1,0 +1,320 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+	width: 692px;
+	text-align: justify;
+}
+.title,
+.sub-title,
+.other-title{
+	font-family: "Poppins", sans-serif;
+}
+
+.title{
+	color: #37393F;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 3px;
+}
+.sub-title{
+	color: #6B77E5;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.text{
+	color: #7D7D7D;
+	line-height: 1.46;
+}
+
+.text>p{
+	margin-bottom: 45px;
+}
+.block {
+
+}
+.chapter,
+.list,
+.section,
+.sub-list,
+.element{
+	color: #7D7D7D;
+	margin-bottom: 35px;
+}
+
+.other-title {
+	color: #37393F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 13px;
+}
+.chapter {
+	line-height: 1.46;
+}
+.chapter-text {
+	margin-bottom: 30px;
+}
+.list {
+	padding-left:16px;
+	font-weight: 500;
+	line-height: 1.46;
+}
+.chap1,
+.chap2{
+	margin-bottom: 30px;
+}
+/*
+.list li {
+	margin-bottom: 30px;
+}*/
+.section {
+	line-height: 1.46;
+}
+.sub-list {
+	padding-left: 16px;
+	font-weight: 500;
+	line-height: 1.46;
+}
+.element{
+	line-height: 1.46;
+}
+.sub-block{
+
+}
+.Satsumas,
+#Murcotts+p,
+#Enjoy{
+	font-size: 17px;
+}
+
+.Murcotts,
+.object-text,
+#Pages + p,
+#Tangoes+p {
+	font-size: 19px;
+}
+
+#Murcotts,
+.object-title {
+	font-size: 25px;
+}
+
+#Tangoes,
+#Pages,
+#Satsumas
+.Tangoes {
+	font-size: 23px;
+}
+
+.object,
+.object-text,
+#Pages + p,
+#Tangoes+p,
+#Murcotts+p,
+#Enjoy {
+	text-indent: 20px;
+}
+
+.sub-h{
+	font-family: "Metroni Regular",sans-serif;
+	color:orange;
+	font-size: 45px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+
+.object {
+	font-size: 22px;
+	font-style: oblique;
+	font-weight: 700;
+	color: aqua;
+	text-align: right;
+	text-decoration: underline;
+	text-transform: lowercase;
+	line-height: 1.45;
+	letter-spacing: 1.5px;
+	white-space: nowrap;
+}
+.object-list {
+	font-family: "NimbusMono-Bold", sans-serif;
+}
+
+.liist{
+	color:rgb(177, 127, 64);
+	font-size: 30px;
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	line-height: 1.6;
+	letter-spacing: 6px;
+}
+
+.Clementines {
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(237, 189, 130);
+	text-align: left;
+	text-decoration: overline;
+	text-transform: uppercase;
+	line-height: 1.3;
+	letter-spacing: 5px;
+}
+
+.Satsumas {
+	font-style: oblique;
+	color: rgb(126, 103, 74);
+	text-align: left;
+	text-decoration: underline;
+	text-shadow: 3px 2px 3px #000;
+	text-transform: lowercase;
+	line-height: 1.9;
+	letter-spacing: 6px;
+}
+
+.Pages {
+	font-size: 14px;
+	font-style: italic;
+	color: #6B77E5;
+	text-align: justify;
+	text-transform: capitalize;
+	line-height: 1.3;
+	letter-spacing: 7px;
+	text-decoration: underline;
+}
+
+.Tangoes {
+	color: rgb(233, 97, 19);
+	text-align: left;
+	text-decoration: overline;
+	text-transform: capitalize;
+	line-height: 2;
+	letter-spacing: 2px;
+}
+
+.Murcotts {
+	color: rgb(194, 37, 92);
+	text-decoration: underline;
+	text-shadow: 1px 2px 3px #eaaaaa;
+	text-transform: lowercase;
+	line-height: 1.6;
+	letter-spacing: 6px;
+}
+
+.object-title {
+	color: #ac1616;
+	text-decoration: underline;
+	text-shadow: 4px 5px 3px #f3cece;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+
+span {
+	text-decoration: underline;
+	font-size: 20.5px;
+	color: #37393F;
+	line-height: 1.9;
+	text-transform: uppercase;
+}
+
+.object-text {
+	font-family: "NimbusMono-Oblique",sans-serif;
+	color: #8d0e0e;
+	font-style: oblique;
+	text-align: justify;
+	word-spacing: 5px;
+	line-height: 1.9;
+}
+
+.object-item {
+
+}
+#Satsumas{
+	color: rgb(108, 229, 108);
+	text-decoration: underline;
+	line-height: 2;
+	text-transform: uppercase;
+}
+#Satsumas + p {
+	font-size: 22.6px;
+	color: rgb(39, 223, 223);
+	text-decoration: line-through;
+	text-transform: lowercase;
+	line-height: 2.3;
+	text-indent: 5px;
+	letter-spacing: 2.5px;
+	word-spacing: 10px;
+	text-indent: 25px;
+}
+
+.object-p {
+	font-family: "Galada",sans-serif;
+}
+
+#Pages{
+	color: #c92199;
+	text-align: center;
+	text-shadow: 5px 5px 3px #c584b0;
+	text-transform: uppercase;
+}
+
+#Pages + p{
+	color: #cb2697;
+	text-decoration: underline;
+	text-transform: capitalize;
+	line-height: 2.2;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+	font-style: oblique;
+}
+
+#Tangoes{
+	color: #f519af;
+	text-align: right;
+	text-decoration: overline;
+	line-height: 2;
+	text-shadow: 6px 5px 4px #ebb2d6;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+}
+
+#Tangoes+p{
+	color: #4d0436;
+	font-style: italic;
+	text-decoration: overline;
+	line-height: 1.66;
+	text-align: justify;
+	text-transform: lowercase;
+	word-spacing: 15px;
+}
+
+#Murcotts{
+	color: #522a2a;
+	text-align: center;
+	text-shadow: 7px 4px 5px #a96262;
+	line-height: 2.2;
+}
+
+#Murcotts+p{
+	color: #762566;
+	text-align: left;
+	line-height: 1.5;
+	word-spacing: 4px;
+	margin-bottom: 20px;
+}
+
+#Enjoy{
+	color: #ae2a94;
+	text-transform: capitalize;
+	line-height: 1.5;
+	word-spacing: 10px;
+}
+
